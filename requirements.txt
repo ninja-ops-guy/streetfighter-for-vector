@@ -1,0 +1,8 @@
+mss>=9.0.1
+opencv-python>=4.9.0.80
+numpy>=1.26.0
+requests>=2.31.0
+pywin32>=306
+Pillow>=10.2.0
+anki_vector>=0.6.0
+Flask>=3.0.0
