@@ -1,2 +1,4 @@
 #start
-python "C:\Users\jinis\OneDrive\Desktop\FightcadeVectorSystem\beam_video.py"
+#change this path
+python "C:\path\to\beam_video.py"
+
