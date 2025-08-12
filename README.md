@@ -131,7 +131,7 @@ For more about Custom Intents, see the wire-pod wiki: [Custom Intents](https://g
 ---
 
 ## Notes
-- The capture loop is continuous and will keep streaming to Vector at `FPS` frames per second. Use `Ctrl+C` in the terminal to stop.
+- The capture loop is continuous and will keep streaming to Vector at 5 (by default) frames per second. Use `Ctrl+C` in the terminal to stop.
 - `kill_listener.py` is a blunt tool that terminates Python processes on Windows; use with caution.
 - Tested with FBNeo via Fightcade; other emulators may work with adjustments to window title detection and launch command.
 
@@ -146,3 +146,4 @@ Provide a license of your choice for public release (MIT recommended). Add a `LI
 - wire-pod: Custom Intents reference: [wire-pod Wiki – Custom Intents](https://github.com/kercre123/wire-pod/wiki/Custom-Intents)
 - Anki Vector SDK
 - Fightcade + FBNeo
+
