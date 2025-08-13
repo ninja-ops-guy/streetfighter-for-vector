@@ -9,7 +9,6 @@ Launch Fightcade (FBNeo) and stream the game window to Anki Vector's screen via 
 - Sends frames to wire-pod's `vector/display_image` endpoint for display on Vector
 - Can be triggered by a wire-pod Custom Intent (Exec) or run manually
 
-> Note: wire-pod custom intent Lua is only used for speaking behaviors; HTTP requests should be executed via Exec program/script, not Lua. See docs below.
 
 ---
 
@@ -146,4 +145,5 @@ Provide a license of your choice for public release (MIT recommended). Add a `LI
 - wire-pod: Custom Intents reference: [wire-pod Wiki – Custom Intents](https://github.com/kercre123/wire-pod/wiki/Custom-Intents)
 - Anki Vector SDK
 - Fightcade + FBNeo
+
 
