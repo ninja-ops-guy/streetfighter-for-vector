@@ -60,6 +60,9 @@ ROM_NAME = "sfiii3nr1"
 
 If your window title differs, change `WINDOW_TITLE_KEYWORD`. If your ROM or emulator path are different, update accordingly.
 
+Open "Custom.Intents.json"  
+
+edit the filepath in the exec args to match your path to start_fightcade.ps1 
 ---
 
 ## Run options
@@ -145,5 +148,6 @@ Provide a license of your choice for public release (MIT recommended). Add a `LI
 - wire-pod: Custom Intents reference: [wire-pod Wiki – Custom Intents](https://github.com/kercre123/wire-pod/wiki/Custom-Intents)
 - Anki Vector SDK
 - Fightcade + FBNeo
+
 
 
