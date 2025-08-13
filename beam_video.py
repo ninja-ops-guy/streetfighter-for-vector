@@ -15,7 +15,7 @@ import os
 from flask import Flask
 
 # CONFIGURE THESE
-WIREPOD_IP = "192.168.1.8"  
+WIREPOD_IP = "127.0.0.1"  
 WIREPOD_PORT = 8080
 # MONITOR_REGION will be set dynamically
 FRAME_WIDTH = 184
@@ -137,3 +137,4 @@ def start_game():
 if __name__ == '__main__':
 
     app.run(port=5005)
+
