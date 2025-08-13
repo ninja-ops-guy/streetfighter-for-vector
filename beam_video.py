@@ -24,8 +24,8 @@ FPS = 5
 
 # Find the window with 'Street Fighter' in the title
 WINDOW_TITLE_KEYWORD = "Fightcade FBNeo"
-
-EMULATOR_PATH = r"C:\Users\jinis\OneDrive\Documents\Fightcade\emulator\fbneo\fcadefbneo.exe"
+#CHANGE THIS TOO. HAS TO BE PATH TO YOUR EMULATOR. I USED FIGHTCADE TO GET THIS UP AND RUNNING.
+EMULATOR_PATH = r"YOUR\PATH\TO\Fightcade\emulator\fbneo\fcadefbneo.exe"
 ROM_NAME = "sfiii3nr1"
 
 # Set working directory to emulator folder (important for some emulators)
@@ -135,4 +135,5 @@ def start_game():
     return "Game started!", 200
 
 if __name__ == '__main__':
+
     app.run(port=5005)
